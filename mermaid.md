@@ -21,7 +21,7 @@ graph TD
     D --> E[Risk Assessment Module]
 
     subgraph Risk Assessment Module
-        E --> F1[Classification Layer: Fully Connected NN\nOrdinal Regression for Risk Levels (Low, Medium, High)]
+        E --> F1[Classification Layer: Fully Connected NN\nOrdinal Regression for Risk Levels: Low, Medium, High]
         E --> F2[Explainable AI Module: Feature & Modality Attribution]
         F2 --> F3[Decision Support System]
     end
