@@ -7,7 +7,7 @@ graph TD
     subgraph Feature Extraction
         B1 --> C1[Transformer Models: BERT / RoBERTa\nContextual Semantics & Sentiment]
         B2 --> C2[Mel Spectrograms] --> C3[GRU Networks: Temporal Dynamics]
-        B3 --> C4[CNN [ResNet]: Spatial Features]
+        B3 --> C4[CNN: ResNet - Spatial Features]
         B3 --> C5[LSTM / 3D CNN: Temporal Modeling]
     end
 
