@@ -1,3 +1,4 @@
+```meramid
 graph TD
     A[Input Modalities] --> B1[Text]
     A --> B2[Audio]
