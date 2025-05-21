@@ -26,15 +26,9 @@ graph TD
         F2 --> F3[Decision Support System]
     end
 
-    subgraph Training and Evaluation
-        F1 --> G1[Dataset: DAIC-WOZ\nSMOTE & Other Balancing Techniques]
-        F1 --> G2[Metrics: Accuracy, Precision, Recall, F1-Score, AUC-ROC]
-        G2 -->|Feedback| G1
-    end
-
     subgraph Implementation Considerations
-        H1[Data Privacy\nRegulatory Compliance] --> G1
+        H1[Data Privacy\nRegulatory Compliance]
         H2[Real-time Processing\nOptimized Inference] --> E
-        H3[Continuous Learning\nModel Updates] --> G1
+        H3[Continuous Learning\nModel Updates]
         H4[Robustness\nHandling Missing Modalities]
     end
